@@ -36,6 +36,10 @@ import {
   yourlogo,
 } from "../assets";
 
+/**
+ * Navigation menu items for the header
+ * Includes both desktop and mobile-specific items
+ */
 export const navigation = [
   {
     id: "0",
@@ -61,28 +65,33 @@ export const navigation = [
     id: "4",
     title: "New account",
     url: "#signup",
-    onlyMobile: true,
+    onlyMobile: true, // Only visible on mobile devices
   },
   {
     id: "5",
     title: "Sign in",
     url: "#login",
-    onlyMobile: true,
+    onlyMobile: true, // Only visible on mobile devices
   },
 ];
 
+// Icons displayed in the hero section
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
+// Notification images for the notification component
 export const notificationImages = [notification4, notification3, notification2];
 
+// Company logos for the company logos section (currently using placeholder)
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
+// List of Brainwave services/features
 export const brainwaveServices = [
   "Photo generating",
   "Photo enhance",
   "Seamless Integration",
 ];
 
+// Icons corresponding to Brainwave services
 export const brainwaveServicesIcons = [
   recording03,
   recording01,
@@ -91,6 +100,10 @@ export const brainwaveServicesIcons = [
   sliders04,
 ];
 
+/**
+ * Development roadmap items showing project progress
+ * Each item has a status: 'done', 'progress', or 'undone'
+ */
 export const roadmap = [
   {
     id: "0",
@@ -99,7 +112,7 @@ export const roadmap = [
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
-    colorful: true,
+    colorful: true, // Special styling for this item
   },
   {
     id: "1",
@@ -127,9 +140,14 @@ export const roadmap = [
   },
 ];
 
+// Shared text for collaboration section
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
+/**
+ * Collaboration features content
+ * Describes the key benefits of the platform
+ */
 export const collabContent = [
   {
     id: "0",
@@ -146,6 +164,10 @@ export const collabContent = [
   },
 ];
 
+/**
+ * Third-party apps that integrate with Brainwave
+ * Each app has specific icon dimensions for proper display
+ */
 export const collabApps = [
   {
     id: "0",
@@ -205,6 +227,10 @@ export const collabApps = [
   },
 ];
 
+/**
+ * Pricing plans configuration
+ * Three tiers: Basic (free), Premium ($9.99), and Enterprise (custom pricing)
+ */
 export const pricing = [
   {
     id: "0",
@@ -232,7 +258,7 @@ export const pricing = [
     id: "2",
     title: "Enterprise",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    price: null, // Custom pricing for enterprise
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -241,6 +267,10 @@ export const pricing = [
   },
 ];
 
+/**
+ * Benefits/features section data
+ * Each benefit has an icon, background, and optional light theme variant
+ */
 export const benefits = [
   {
     id: "0",
@@ -257,7 +287,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    light: true,
+    light: true, // Light theme variant
   },
   {
     id: "2",
@@ -274,7 +304,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
-    light: true,
+    light: true, // Light theme variant
   },
   {
     id: "4",
@@ -294,6 +324,10 @@ export const benefits = [
   },
 ];
 
+/**
+ * Social media links for the footer
+ * Each social platform has its own icon and URL
+ */
 export const socials = [
   {
     id: "0",
